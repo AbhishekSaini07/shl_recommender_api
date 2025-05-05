@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # --- Configuration ---
-ASSESSMENTS_FILE = "assessments_180.json" # Make sure this matches your filename
+ASSESSMENTS_FILE = "assessments_data.json" # Make sure this matches your filename
 SBERT_MODEL_NAME = 'all-mpnet-base-v2'
 INITIAL_RETRIEVE_COUNT = 25 # How many candidates for Gemini to re-rank
 FINAL_RECOMMENDATION_COUNT = 10
