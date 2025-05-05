@@ -2,7 +2,7 @@ fastapi
 uvicorn[standard]
 google-generativeai
 python-dotenv
-sentence-transformers==2.2.2 # Pinning version for compatibility might be wise
+sentence-transformers # Pinning version for compatibility might be wise
 scikit-learn
 numpy
 pydantic
