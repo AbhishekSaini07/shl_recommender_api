@@ -1,8 +1,9 @@
+# requirements.txt
 fastapi
 uvicorn[standard]
-google-generativeai
-python-dotenv
-sentence-transformers # Pinning version for compatibility might be wise
+sentence-transformers # Remove specific version pinning unless necessary
 scikit-learn
 numpy
 pydantic
+python-dotenv # Still useful for local .env testing
+google-generativeai # If using Gemini re-ranking
